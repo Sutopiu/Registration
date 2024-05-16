@@ -150,11 +150,11 @@ def trans(data):
     return data, mask
 
 
-path = '/data/junhuama/temp/segment/data/dataset5_train/'
+path = '/data/user/temp/segment/data/dataset5_train/'
 data_all = os.listdir(path)
 
 
-out = "/data/junhuama/temp/segment/data/train/"
+out = "/data/user/temp/segment/data/train/"
 os.makedirs(out, exist_ok=True)
         
         
